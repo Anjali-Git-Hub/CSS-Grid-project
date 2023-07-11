@@ -4,7 +4,8 @@ today i made an Image gallery using CSS Grid .
 CSS Grid is a very powerful 2 dimensional layout designing tool irrespective of flexbox which is one dimensional layout designing tool .
 
 I created the layout of the image gallery by using css grid .
-Using grid container -
+
+Using grid container properties -
 1. grid-template-columns
 2. grid-template-rows
 3. gap
@@ -15,6 +16,7 @@ Using grid container -
 8. align-items
 9. autofill/autofit
 10. minmax()
+
 Grid items properties -
 1. grid-column
 2. grid-row
