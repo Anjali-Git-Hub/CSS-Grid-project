@@ -27,6 +27,6 @@ and there are many other properties that you will know when you will make projec
 In this project i added a preloader and when you hover over the image you see a beautiful transition ( Night to Morning transition ). 
 You can also add transitions in your projects . Transitions like skew,rotate,translate,scale ...
 
-See the output here - [Image Gallery](http://hello.com "hello there")
+See the output here - [Image Gallery](https://anjali-git-hub.github.io/CSS-Grid-project/ "CSS GRIDS")
 
 
