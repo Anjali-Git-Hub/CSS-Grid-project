@@ -16,7 +16,7 @@ body{
 
 /*############### preloader ################ */
 #preloder{
-    height:100vh;
+   height:100vh;
     width:100%;
     display:flex;
     justify-content:center;
@@ -70,24 +70,22 @@ body{
 /* ################ Container styling ############ */
 
 #container{
-    height:100vh;
+    min-height:100vh;
+    width:100%;
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:0 10px;
     background:url(../Images/bg1.jpg);
     background-size:cover;
     background-position:top;
-    background-color:#222;
-    background-blend-mode:hard-light;
-    transition:all 1s ease-in-out ;
-}
-#container:hover{
     background-color:#777;
-    background-position:center;
+    background-blend-mode:hard-light;
 
 }
+
 
 /* ################ right-left sections styling ############### */
+
 
 .left,
 .right{
@@ -105,13 +103,18 @@ body{
     font-size:6rem;
     text-transform:uppercase;
     font-weight:600;
-  
+    color: #333333;
 }
 .para{
     font-size:2rem;
     font-weight:500;
-    margin:10px 0;
+    line-height:30.5px;
+    color: #490303;
+    padding:0.5em 1.5em;
 
+}
+.para::first-letter{
+    font-size:30px;
 }
 .images{
     display:grid;
@@ -175,13 +178,12 @@ body{
 
 
 /* ################### media queries ##################### */
-
-@media(max-width:900px){
-
+@media (max-width: 1000px){
+  
     #container{
-        height:150vh;
+        width:100%;
         grid-template-columns:1fr;
-        gap:0;
+        gap:20px;
 
     }
     .box{
@@ -194,4 +196,17 @@ body{
         align-items:start;
     }
       
+}
+@media (max-width:500px){
+    html{
+        font-size: 50%;
+    }
+      .content,
+.images{
+    width:95%;
+
+}
+.para{
+    padding: 0.5em 0.5em;
+}
 }
